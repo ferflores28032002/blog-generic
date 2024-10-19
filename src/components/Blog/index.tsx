@@ -11,8 +11,10 @@ import { useEffect, useState } from "react";
 import Footer from "../Footer";
 import Questions from "../Questions";
 
+import ReactPlayer from "react-player";
+
 export default function Blog() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
   const [selectedTopic, setSelectedTopic] = useState<number | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
@@ -71,20 +73,22 @@ export default function Blog() {
   const SidebarContent = () => (
     <ScrollArea className="h-full py-6 pl-8 pr-6 lg:py-8">
       <div className="grid grid-flow-row auto-rows-max text-sm">
-        {blogTopics.map((topic) => (
-          <button
-            key={topic.id}
-            className={`flex w-full items-center rounded-md px-2 py-1 hover:bg-gray-100 dark:hover:bg-gray-700 ${
+      {blogTopics.map((topic) => (
+        <button
+          key={topic.id}
+          className={`flex w-full items-center rounded-md px-2 py-1 transition-colors duration-200 ease-in-out
+            hover:bg-gray-200 dark:hover:bg-gray-600
+            ${
               selectedTopic === topic.id
-                ? "bg-gray-100 dark:bg-gray-700 font-medium  "
-                : ""
+                ? "bg-gray-100 dark:bg-gray-700 font-medium"
+                : "hover:bg-opacity-70 dark:hover:bg-opacity-70"
             }`}
-            onClick={() => handleSidebarItemClick(topic.id)}
-          >
-            <span className="flex-1 text-left">{topic.title}</span>
-          </button>
-        ))}
-      </div>
+          onClick={() => handleSidebarItemClick(topic.id)}
+        >
+          <span className="flex-1 text-left">{topic.title}</span>
+        </button>
+      ))}
+    </div>
     </ScrollArea>
   );
 
@@ -164,24 +168,43 @@ export default function Blog() {
     return (
       <article className="prose dark:prose-invert max-w-none">
         <h2 className="text-3xl font-bold m-0 -mb-3">{topic.title}</h2>
+        <p className="text-lg mt-6">{topic.category}</p>
+
+        {topic.url && (
+          <img
+            src={topic.url}
+            className="pb-6 w-full h-[300px] object-cover mt-3"
+          />
+        )}
+
         {renderParagraphs(topic.content)}
 
         <h3 className="text-2xl font-semibold mb-4 mt-6">Videos</h3>
         <div className="space-y-6">
           {topic.videos.map((video, index) => (
-            <iframe
+            <ReactPlayer
               key={index}
+              url={video.url}
               width="100%"
-              height="355"
-              src={video.url}
-              title={video.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              height="355px"
+              controls={true}
               className="pb-6"
-            ></iframe>
+            />
           ))}
         </div>
+        <h3 className="text-2xl font-semibold mb-4 mt-6">Imagenes</h3>
+        <div className="space-y-6">
+          {topic.images &&
+            topic.images.map((img, index) => (
+              <img
+                key={index}
+                src={img.url}
+                className="pb-6 w-full h-[450px] object-fill"
+              />
+            ))}
+        </div>
+        <h3 className="text-2xl font-semibold mb-4 mt-6">Conclusión</h3>
+        <p className="text-lg mt-4">{topic.end}</p>
 
         <h3 className="text-2xl font-semibold mb-4 mt-6">Bibliografía</h3>
         <ul className="list-disc pl-6">
@@ -250,7 +273,7 @@ export default function Blog() {
                 <Search className="absolute left-2 top-2.5 h-4 w-4 text-muted-foreground dark:text-gray-400" />
                 <Input
                   placeholder="Buscar documentación..."
-                  className="pl-8 md:w-[300px] lg:w-[400px] dark:bg-gray-700 dark:text-white"
+                  className="pl-8 md:w-[300px] lg:w-[400px]  dark:text-white"
                   type="search"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}

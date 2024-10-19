@@ -18,10 +18,16 @@ export const blogTopics = [
         Uno de los aspectos más poderosos de Scrum es su enfoque en la inspección y la adaptación. Al final de cada Sprint, el equipo participa en una Revisión del Sprint, donde se presenta el incremento del producto y se recibe retroalimentación de los stakeholders. Esta retroalimentación es crucial, ya que permite al equipo ajustar el Product Backlog y mejorar el trabajo para el próximo Sprint. Después de la Revisión, el equipo también realiza una Retrospectiva del Sprint, un evento en el que se reflexiona sobre el proceso, se identifican áreas de mejora y se acuerdan acciones concretas para implementar en el siguiente Sprint.
   
         Scrum también promueve la transparencia a través de eventos clave como la Planificación del Sprint y el Daily Scrum. La Planificación del Sprint es el evento donde el equipo decide qué tareas del Product Backlog se completarán en el próximo Sprint, basándose en la prioridad definida por el Product Owner. El Daily Scrum es una reunión diaria de 15 minutos donde el equipo sincroniza su progreso, discute impedimentos y ajusta su plan para las próximas 24 horas. Estos eventos aseguran que todos los miembros del equipo estén alineados y que el trabajo sea visible y transparente para todos.
+
+        En el corazón de Scrum se encuentra la noción de que el desarrollo de productos, especialmente en entornos complejos, es impredecible y está sujeto a cambios frecuentes. Scrum propone un enfoque iterativo e incremental que divide el trabajo en ciclos cortos llamados Sprints, generalmente de dos a cuatro semanas de duración. Cada Sprint tiene como objetivo entregar un incremento funcional del producto que puede ser revisado por el cliente o los stakeholders (partes interesadas). Este enfoque permite a los equipos ajustar su trabajo en función de la retroalimentación recibida y garantizar que las prioridades del cliente estén siempre alineadas con el producto entregado.
   
         La transparencia, la inspección y la adaptación son los tres pilares que sostienen el marco de Scrum. Estos pilares permiten que los equipos mantengan una entrega constante de valor y se ajusten a las necesidades cambiantes del cliente o del mercado. A medida que el equipo avanza en el desarrollo del producto, estos principios aseguran que los objetivos del proyecto sean alcanzables y estén siempre alineados con las expectativas del cliente.
   
         A pesar de sus numerosos beneficios, la implementación de Scrum no está exenta de desafíos. Uno de los mayores problemas que enfrentan los equipos Scrum es la falta de compromiso con los principios ágiles. Algunos equipos adoptan lo que se conoce como "Scrum en nombre solamente", donde siguen los eventos y roles de Scrum pero no adoptan la mentalidad ágil subyacente, lo que puede llevar a una ejecución ineficaz del marco. Para tener éxito con Scrum, es fundamental que todos los miembros del equipo y la organización adopten la filosofía ágil y estén dispuestos a adaptarse y mejorar continuamente.
+
+        Los principios fundamentales de Scrum están alineados con los valores del Manifiesto Ágil (2001), que enfatiza la importancia de la colaboración con el cliente, la adaptabilidad a los cambios, la entrega rápida y continua de valor, y la autoorganización de los equipos. Scrum se basa en estos principios y proporciona una estructura que permite a los equipos responder con agilidad a los desafíos complejos y dinámicos que se presentan en el desarrollo de productos.
+
+        Scrum se ha convertido en una de las metodologías ágiles más populares debido a su simplicidad, flexibilidad y capacidad para mejorar la eficiencia en la entrega de productos. Según un informe del 14th Annual State of Agile Report, aproximadamente el 58% de las empresas utilizan Scrum como su marco de trabajo ágil principal, lo que subraya su adopción generalizada y la confianza que las organizaciones depositan en este enfoque.
   
         En resumen, Scrum es un marco ágil que ha revolucionado la forma en que los equipos de desarrollo abordan la gestión de proyectos, especialmente en entornos complejos y dinámicos. Al fomentar la autoorganización, la entrega continua de valor, y la capacidad de adaptación, Scrum permite a los equipos de desarrollo responder rápidamente a los cambios y ofrecer productos que satisfacen las necesidades del cliente de manera efectiva.`,
     bibliography: [
@@ -68,19 +74,48 @@ export const blogTopics = [
     ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/wxbjCSEyq2I",
+        url: "https://youtu.be/qqFKrsBxxi0?si=BLAfJeXlqSnYH6Sx",
         title: "Scrum Framework Explained",
       },
       {
-        url: "https://www.youtube.com/embed/2Vt7Ik8Ublw",
+        url: "https://youtu.be/sLexw-z13Fo?si=qj3XUO98XkPXcQWv",
         title: "Scrum Framework Overview",
       },
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/XDOayQIuC78?si=j_SmtK7Sj5u1E6Zv",
+        title: "Scrum in 5 Minutes",
+      },
+      {
+        url: "https://youtu.be/2xZChQFeddg?si=GaNcycELjts08Ln8",
+        title: "Scrum in 5 Minutes",
+      },
+      {
+        url: "https://youtu.be/WZ8U_NHVdhI?si=PC-dsu1gDdNy7AZE",
+        title: "Scrum in 5 Minutes",
+      },
+      {
+        url: "https://youtu.be/a33xOe9d_Dk?si=557HzCEmzxjjWqnQ",
         title: "Scrum in 5 Minutes",
       },
     ],
+    images: [
+      {
+        url: "https://ausum.cloud/wp-content/uploads/2023/11/Scrum-Process_Articulo_Semana-32_2022_1-scaled-1.webp",
+        title: "Scrum Framework",
+      },
+      {
+        url: "https://donetonic.com/wp-content/uploads/2022/10/Procesos-SCRUM.png",
+        title: "Scrum Roles",
+      },
+      {
+        url: "https://cdn-cashy-static-assets.lucidchart.com/lucidspark/marketing/blog/2021Q2/intro-to-scrum/the-6-key-scrum-principles@2x.png",
+        title: "Scrum Board",
+      },
+    ],
+    url: "https://www.camara.es/sites/default/files/foto_texto_scrum.jpg",
+    end: "Scrum es un marco ágil que facilita la gestión de proyectos complejos a través de un enfoque iterativo e incremental. Se centra en la colaboración constante entre los miembros del equipo, quienes trabajan en ciclos cortos y definidos llamados sprints. A través de eventos como el Daily Scrum, revisiones de sprint y retrospectivas, el equipo puede adaptarse rápidamente a los cambios y optimizar su rendimiento. Los roles clave como el Product Owner, el Scrum Master y el Development Team garantizan que el trabajo esté bien organizado y alineado con los objetivos del producto. Al implementar Scrum, las organizaciones logran mejorar la transparencia, la eficiencia y la entrega de valor continuo al cliente, fomentando una cultura de mejora constante.",
   },
+
   {
     id: 2,
     title: "Identifica el problema o necesidad",
@@ -103,7 +138,19 @@ export const blogTopics = [
     
         Finalmente, una de las herramientas más efectivas para identificar problemas en Scrum es el uso de la retroalimentación continua. Esto puede implicar la realización de revisiones de Sprint con los stakeholders, donde el equipo presenta un incremento funcional del producto y recibe comentarios inmediatos. Esta retroalimentación permite al Product Owner ajustar el Product Backlog según sea necesario para asegurar que las futuras iteraciones sigan resolviendo los problemas más apremiantes.
     
-        En resumen, identificar el problema o la necesidad es la base de cualquier proyecto Scrum exitoso. Este proceso no solo ayuda al equipo a enfocarse en las prioridades correctas, sino que también fomenta una mejor colaboración entre el equipo de desarrollo y los stakeholders. Al garantizar que todos estén alineados en lo que se está tratando de lograr, el equipo puede trabajar de manera más eficiente y entregar productos que realmente solucionen los problemas de los usuarios.`,
+        En el marco de Scrum,   identificar el problema o la necesidad   es una de las tareas más críticas y fundamentales para asegurar el éxito de cualquier proyecto. Este proceso se inicia en las etapas más tempranas y continúa de manera iterativa a lo largo del ciclo de desarrollo, ya que Scrum promueve la adaptabilidad a los cambios y el enfoque constante en entregar valor al cliente.
+
+        La identificación del problema implica comprender de manera profunda qué es lo que el cliente o usuario realmente necesita. Esto va más allá de simplemente escuchar las demandas iniciales de los stakeholders, pues muchas veces los problemas no están bien definidos o las expectativas pueden cambiar. Aquí es donde entra el   Product Owner  , quien, como representante del cliente, colabora estrechamente con los stakeholders y el equipo de desarrollo para asegurarse de que los objetivos del proyecto estén alineados con las verdaderas necesidades del usuario final.
+
+        Una de las claves en la identificación del problema es transformar esas necesidades abstractas en elementos concretos y manejables para el equipo de desarrollo. A menudo, esta tarea comienza con la creación del   Product Backlog  , que es una lista priorizada de tareas o funcionalidades que deben desarrollarse para resolver el problema identificado. El Product Owner prioriza estas tareas basándose en la urgencia del problema, el valor que aportará al usuario, y el esfuerzo que implicará su implementación. De esta manera, se garantiza que el equipo esté siempre enfocado en las tareas que aportan mayor valor al cliente.
+
+        Sin embargo, identificar el problema no es un proceso estático, sino uno   dinámico y continuo  . En Scrum, los equipos inspeccionan y adaptan constantemente su trabajo, lo que significa que las necesidades del cliente pueden evolucionar a lo largo del tiempo. Lo que al principio parecía ser el problema principal puede cambiar a medida que se descubren nuevas necesidades o el contexto del cliente se transforma. Para abordar este dinamismo, Scrum introduce prácticas como las revisiones de Sprint y las retrospectivas, que permiten al equipo obtener feedback directo de los stakeholders y ajustar el backlog en consecuencia.
+
+        Otro aspecto esencial de este proceso es la   validación temprana   de las hipótesis. Antes de embarcarse en la implementación de soluciones, el equipo debe asegurarse de que está resolviendo el problema correcto. Esto se logra mediante la interacción continua con los usuarios y stakeholders, recogiendo retroalimentación y ajustando el enfoque según sea necesario. El resultado es un producto más alineado con lo que los usuarios realmente necesitan, lo que reduce el riesgo de crear funcionalidades innecesarias o de bajo valor.
+
+        Una de las metodologías que se utiliza para identificar correctamente el problema en Scrum es la realización de   sesiones de descubrimiento   o entrevistas con los stakeholders. Estas reuniones permiten al Product Owner y al equipo de desarrollo obtener una comprensión más clara y profunda de los desafíos que enfrenta el cliente, y cómo el producto que se está construyendo puede ayudar a superarlos. Este enfoque colabora en la creación de un backlog que realmente refleje las prioridades del negocio y las expectativas del cliente.
+
+        En resumen, el proceso de   identificación del problema o necesidad   en Scrum no es una actividad que se realice solo una vez, sino un ejercicio continuo que asegura que el equipo esté siempre alineado con las necesidades cambiantes del cliente. Al mantener una comunicación constante y fluida con los stakeholders, el equipo puede ajustar sus esfuerzos de desarrollo de manera eficiente, evitando malentendidos y garantizando que cada entrega de producto tenga un impacto positivo en la resolución de los problemas más urgentes.`,
     bibliography: [
       {
         text: "Ries, E. (2011). The Lean Startup.",
@@ -148,10 +195,45 @@ export const blogTopics = [
     ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/B4Gz8eVBblg?si=pdQFKh4LQrY-n9kx",
+        title: "Identifying Problems in Scrum",
+      },
+      {
+        url: "https://youtu.be/G7ZOsHKRaWw?si=RKq-OK1m_hPfUW_8",
+        title: "Identifying Problems in Scrum",
+      },
+      {
+        url: "https://www.youtube.com/live/g7yngo90Sbw?si=5LyYWE2Ej2iZVyQ9",
+        title: "Identifying Problems in Scrum",
+      },
+      {
+        url: "https://youtu.be/CP9rmuFVZy4?si=kTqD0i3QpdkV0_kl",
+        title: "Identifying Problems in Scrum",
+      },
+      {
+        url: "https://youtu.be/xVVb0riUuGU?si=mQJe0V29xkJ0Cj99",
         title: "Identifying Problems in Scrum",
       },
     ],
+
+    images: [
+      {
+        title: "Scrum Board",
+        url: "https://149591262.v2.pressablecdn.com/wp-content/uploads/2021/06/scrum-3-1024x621-1.jpg",
+      },
+      {
+        title: "Scrum Board",
+        url: "https://www.rd.com.pa/wp-content/uploads/2023/04/resolucion_de_problemas.jpg",
+      },
+      {
+        title: "Scrum Board",
+        url: "https://ahorasomos.izertis.com/datadviser/wp-content/uploads/2016/09/SCRUM_MASTER_JPG.jpg",
+      },
+    ],
+
+    url: "https://cms.boardmix.com/images/es/articles/knowledge/scrum-boardmix.png",
+
+    end: "En Scrum, todo comienza con la identificación clara del problema o necesidad que se quiere resolver. Esto ayuda a enfocar el esfuerzo del equipo en entregar valor a los usuarios, asegurando que el trabajo tenga un propósito bien definido desde el inicio del proyecto. Al identificar correctamente el problema, el equipo puede diseñar soluciones efectivas y adaptarse rápidamente a los cambios, lo que aumenta la probabilidad de éxito del proyecto. La identificación del problema es un proceso continuo que requiere la colaboración constante entre el Product Owner, los stakeholders y el equipo de desarrollo, lo que garantiza que todos estén alineados en la dirección del proyecto.",
   },
   {
     id: 3,
@@ -216,10 +298,40 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_software_development",
       },
     ],
+
+    url: "https://static.mercadonegro.pe/wp-content/uploads/2020/10/09150412/Producto-Minimo-Viable.jpg",
     videos: [
       {
-        url: "https://www.youtube.com/embed/2Vt7Ik8Ublw",
+        url: "https://youtu.be/IBZUcq9xLuA?si=8u0a57OPsyvhB5cD",
         title: "What is a Minimum Viable Product?",
+      },
+      {
+        url: "https://youtu.be/C1FPR1s9CKQ?si=5XbDqz3MVLENggPl",
+        title: "What is a Minimum Viable Product?",
+      },
+      {
+        url: "https://youtu.be/YKGtNie8HmE?si=dLqnyPniYI-W7mWH",
+        title: "What is a Minimum Viable Product?",
+      },
+      {
+        url: "https://youtu.be/Eh_XyvwJd10?si=QY27f8beYsG6waZD",
+        title: "What is a Minimum Viable Product?",
+      },
+    ],
+    end: "Scrum permite desarrollar un Mínimo Producto Viable rápidamente, que es una versión inicial del producto con las características esenciales. El MVP permite validar ideas y obtener retroalimentación temprana de los usuarios antes de avanzar con más funcionalidades o características. Al lanzar un MVP, los equipos de Scrum pueden aprender rápidamente, reducir el riesgo y mejorar la eficiencia en la entrega de valor al cliente.",
+
+    images: [
+      {
+        url: "https://media.licdn.com/dms/image/v2/C4E12AQFImLSsBFqMtw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1584896474429?e=2147483647&v=beta&t=KsGo27csF1vBDtHqbkvZ4bA5ViC4dvpAd7wwajS5B_g",
+        title: "MVP",
+      },
+      {
+        url: "https://d1ltgr77xghfz9.cloudfront.net/wp-content/uploads/sites/6/2018/03/Scrum-Master-1-.jpg",
+        title: "MVP",
+      },
+      {
+        url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUMHer1RDaFsQOk9c72AHY04dQUIPh2vc99hJug6b5w9_lloehusQmRzRQss6JYK4Agr3llSmw5Ub7qlV4GW_yDFMLEpFiw4uTXp6HpIMILCZxb00KEujUlZy-JmRnsI-JzVFDS0AnmGg/s1600/product_evolution_MVP_MMP.jpg",
+        title: "MVP",
       },
     ],
   },
@@ -302,12 +414,45 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_Startup",
       },
     ],
+    url: "https://media.gcflearnfree.org/content/60d5332e4180fe0f2cd4c4c9_06_25_2021/Roles-y-funciones-en-Scrum.png",
+    images: [
+      {
+        url: "https://www.possibleinc.com/wp-content/uploads/2021/03/info-roles-1024x714.png",
+        title: "Roles en Scrum",
+      },
+      {
+        url: "https://images.squarespace-cdn.com/content/v1/5dde466c8ec727201d3ae12f/1604654057978-H5W6LJAX3BQGOWNYOON0/Los+3+roles+de+Scrum+y+sus+caracter%C3%ADsticas",
+        title: "Roles en Scrum",
+      },
+      {
+        url: "https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1024,h_576/https://www.doonamis.com/wp-content/uploads/2023/03/Brainstorming-Mapa-Mental-Esquema-Marketing-Scrapbook-Doodle-Marron-1024x576.png",
+        title: "Roles en Scrum",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/wxbjCSEyq2I",
+        url: "https://youtu.be/lSYZ1sZWvbQ?si=uLQl-8-8L99GkID5",
+        title: "Roles in Scrum Explained",
+      },
+      {
+        url: "https://youtu.be/kS9nEm-xUlM?si=-7uqWmfokCKSXlk5",
+        title: "Roles in Scrum Explained",
+      },
+      {
+        url: "https://youtu.be/hdkVP_NZUD8?si=FJT4J7H2RX6d70lG",
+        title: "Roles in Scrum Explained",
+      },
+      {
+        url: "https://youtu.be/AcnG70wNMQc?si=XF3vgKGWKMq_c68K",
+        title: "Roles in Scrum Explained",
+      },
+      {
+        url: "https://youtu.be/kR4AXPeVTSg?si=6ZuOlYpRqjEvZhQO",
         title: "Roles in Scrum Explained",
       },
     ],
+
+    end: "Los tres roles principales en Scrum son el Product Owner, el Scrum Master, y el Development Team. Cada uno tiene responsabilidades bien definidas para asegurar el éxito del proyecto. El Product Owner define las prioridades, el Scrum Master facilita el proceso, y el equipo de desarrollo entrega el trabajo. La colaboración entre estos roles es esencial para mantener la alineación y la eficiencia del equipo. Al trabajar juntos, los roles en Scrum pueden adaptarse rápidamente a los cambios y entregar valor continuo al cliente.",
   },
   {
     id: 5,
@@ -376,18 +521,35 @@ export const blogTopics = [
     ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/2Vt7Ik8Ublw",
+        url: "https://youtu.be/dmUoCItd58A?si=cOpNriuepys_XFyy",
         title: "How to Plan a Scrum Sprint",
       },
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/HhC75IonpOU?si=fgqWjXuqJEh7IdKL",
         title: "Sprint Planning in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/wxbjCSEyq2I",
+        url: "https://youtu.be/FhiOeECwsS8?si=MdVHWvSJ2XhmX0zG",
         title: "Scrum Framework Explained",
       },
     ],
+    images: [
+      {
+        url: "https://blog.eclass.com/hs-fs/hubfs/info_sprint.jpg?width=600&name=info_sprint.jpg",
+        title: "Plan de trabajo en Scrum",
+      },
+      {
+        url: "https://dc722jrlp2zu8.cloudfront.net/media/uploads/2019/09/23/cap-scrum2.png",
+        title: "Plan de trabajo en Scrum",
+      },
+      {
+        url: "https://netmind.net/wp-content/uploads/2021/07/Sprint_Planning_Como.jpg",
+        title: "Plan de trabajo en Scrum",
+      },
+    ],
+
+    url: "https://media.licdn.com/dms/image/D4E12AQE4aOWqpZXYBg/article-cover_image-shrink_720_1280/0/1710238998073?e=2147483647&v=beta&t=Hh4KhkXx9AZ02doMfT1nApZFYy9mIxshzHQ4qlHJKKA",
+    end: "En Scrum, el plan de trabajo se establece al comienzo de cada sprint, donde se define el objetivo del sprint y las tareas que se deben completar. Este plan se ajusta durante el proyecto en función de la retroalimentación y el progreso del equipo, permitiendo una mayor flexibilidad. La colaboración entre el Product Owner, el Scrum Master y el equipo de desarrollo es esencial para el éxito del plan de trabajo y la entrega de valor continuo al cliente. La transparencia y la adaptabilidad son los pilares del plan de trabajo en Scrum.",
   },
   {
     id: 6,
@@ -452,20 +614,36 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_software_development",
       },
     ],
+    url: "https://media.gcflearnfree.org/content/60d533c24180fe0f2cd4c4cb_06_25_2021/Que%CC%81-es-la-estimacio%CC%81n-relativa.png",
+    images: [
+      {
+        url: "https://www.scrummanager.com/blog/wp-content/uploads/2023/07/Tecnicas-de-estimacion-agil.-Bucket-System-Tallas-de-camiseta-y-Affinity-Estimating.png",
+        title: "Estimaciones ágiles",
+      },
+      {
+        url: "https://blog.comparasoftware.com/wp-content/uploads/2021/03/7scrum-1024x738.png",
+        title: "Estimaciones ágiles",
+      },
+      {
+        url: "https://www.scrummanager.com/blog/wp-content/uploads/2023/07/Tecnicas-de-estimacion-agil_-Tallas-de-camiseta.png",
+        title: "Estimaciones ágiles",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/O-D22kLYi2M?si=WQXP6yad_OkwRsvd",
         title: "Estimating in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/tdGvXqz6dfU",
+        url: "https://youtu.be/6NqRQ49G_b0?si=ByAPFUtHd5GBwu1c",
         title: "Agile Estimation Techniques",
       },
       {
-        url: "https://www.youtube.com/embed/1T7l2D14mIc",
+        url: "https://youtu.be/GBC4gh7iUaM?si=Q4Lzq2D45A7pIh6k",
         title: "How to Estimate User Stories",
       },
     ],
+    end: "Las estimaciones ágiles en Scrum se basan en técnicas como puntos de historia o estimaciones relativas, donde el equipo evalúa el esfuerzo necesario para completar cada tarea en comparación con otras. Esto permite planificar de manera efectiva sin ser demasiado rígidos en cuanto al tiempo. Las estimaciones ágiles también ayudan al equipo a medir su velocidad y a ajustar su ritmo de trabajo para entregar valor continuo al cliente.",
   },
   {
     id: 7,
@@ -530,20 +708,34 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_Startup",
       },
     ],
+
+    url: "https://discoveryfast.com/wp-content/uploads/2022/08/SolucionadordeProblemas.png",
+    images: [
+      {
+        url: "https://www.microtool.de/wp-content/uploads/2023/04/wissen-scrum-teams-scrum-of-scrums.png",
+        title: "Impedimentos en Scrum",
+      },
+      {
+        url: "https://media.licdn.com/dms/image/v2/D5612AQEzywyAf1ze4g/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1677271199238?e=2147483647&v=beta&t=yCZd2A9lHursisiWbd9e2n7ZqN9Jt3FByh9ypMvdPYM",
+        title: "Impedimentos en Scrum",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/BrvLSuGI54k?si=_mY6pSToSTQEylLB",
         title: "How to Handle Impediments in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/2Vt7Ik8Ublw",
+        url: "https://youtu.be/SZnsUw9RCpE?si=fKOKUIqWKhMNJHOj",
         title: "Common Impediments in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/wxbjCSEyq2I",
+        url: "https://youtu.be/WLTksfu9HPM?si=R5TXsWEwCcqNdZtZ",
         title: "Impediment Management in Scrum",
       },
     ],
+
+    end: "Los impedimentos son problemas o bloqueos que impiden el progreso del equipo. Uno de los roles del Scrum Master es identificar y eliminar estos impedimentos rápidamente para mantener el flujo de trabajo continuo durante el sprint. La resolución efectiva de impedimentos es esencial para garantizar que el equipo pueda cumplir con sus objetivos y entregar valor de manera continua al cliente. La colaboración y la comunicación abierta son clave para superar los impedimentos y mantener la eficiencia del equipo. La identificación y resolución de impedimentos es una parte esencial del proceso de mejora continua en Scrum.",
   },
   {
     id: 8,
@@ -626,20 +818,40 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_software_development",
       },
     ],
+    url: "https://i.ytimg.com/vi/qcHboLy3sUc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBDQFcUZ3DEjWmJ4u3_VH7Z2JD5TQ",
+    images: [
+      {
+        url: "https://www.scrumio.com/blog//wp-content/uploads/2020/05/valores-scrum-1024x562.jpg",
+        title: "Métricas en Scrum",
+      },
+      {
+        url: "https://blog.comparasoftware.com/wp-content/uploads/2021/03/metricas-agiles-en-Scrum-panorama-general.jpg",
+        title: "Métricas en Scrum",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/xEJHwD_OgcI?si=avzSuP_M4yl5cIJI",
         title: "Scrum Metrics for Agile Teams",
       },
       {
-        url: "https://www.youtube.com/embed/tdGvXqz6dfU",
+        url: "https://youtu.be/LPDGexli3r8?si=PmZUNAUJ2Qth0LSO",
         title: "Using Burnup and Burndown Charts in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/1T7l2D14mIc",
+        url: "https://youtu.be/WhgSuZ8DA4I?si=OK23sXoI5OY3G3jA",
+        title: "How to Measure Team Velocity in Scrum",
+      },
+      {
+        url: "https://youtu.be/3UbUfgORdjE?si=NoOojekkyOZ35tTi",
+        title: "How to Measure Team Velocity in Scrum",
+      },
+      {
+        url: "https://youtu.be/80thWgj-Nho?si=JxAKAA7NQ4ILfB9G",
         title: "How to Measure Team Velocity in Scrum",
       },
     ],
+    end: "Las métricas en Scrum, como la velocidad del equipo, los gráficos de burn-down y el trabajo completado, permiten monitorear el progreso del equipo y ajustar el ritmo de trabajo para cumplir con los objetivos del sprint. Estas métricas proporcionan información valiosa para la planificación y la mejora continua, ayudando al equipo a entregar valor de manera eficiente y efectiva. La transparencia y la colaboración son clave para el uso efectivo de las métricas en Scrum. Los gráficos Burnup y Burndown son herramientas visuales que permiten al equipo y a los stakeholders ver el progreso del proyecto y tomar decisiones informadas sobre cómo ajustar el enfoque para cumplir con los objetivos del sprint.",
   },
   {
     id: 9,
@@ -704,20 +916,33 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_Startup",
       },
     ],
+    url: "https://i.ytimg.com/vi/qcHboLy3sUc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBDQFcUZ3DEjWmJ4u3_VH7Z2JD5TQ",
+    images: [
+      {
+        url: "https://media.licdn.com/dms/image/v2/D4E12AQFpxsavSHiPKg/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1691170450101?e=1731542400&v=beta&t=cHfwbmnmvcksKMcrsxgX6fxz5zHQwdjNvWCjnocCruA",
+        title: "Estrategia y táctica en Scrum",
+      },
+      {
+        url: "https://i.ytimg.com/vi/XA0SFMesFEc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBV_2qgNL5eUxxASdNJ0K9XvYd0eQ",
+        title: "Estrategia y táctica en Scrum",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/tdGvXqz6dfU",
+        url: "https://youtu.be/qcHboLy3sUc?si=9nrVEU69GZXZXGzo",
         title: "How to Plan Strategically in Scrum",
       },
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/akRtChcYoP8?si=DcBNH9QrucTjoGrC",
         title: "Tactical Planning in Agile Projects",
       },
       {
-        url: "https://www.youtube.com/embed/1T7l2D14mIc",
+        url: "https://youtu.be/Smf2BKwiBmM?si=PkYWTXDnZCTC6DMj",
         title: "Scrum Strategy vs Tactics Explained",
       },
     ],
+
+    end: "Scrum combina una visión estratégica a largo plazo con tácticas de corto plazo. La estrategia se refleja en la planificación del backlog del producto, mientras que las tácticas se manejan a través de los sprints y las iteraciones rápidas para adaptarse a los cambios. La combinación de estrategia y táctica en Scrum permite a los equipos ser ágiles y flexibles, entregando valor de manera continua y manteniéndose alineados con los objetivos del negocio.",
   },
   {
     id: 10,
@@ -782,19 +1007,32 @@ export const blogTopics = [
         link: "https://es.wikipedia.org/wiki/Lean_Startup",
       },
     ],
+
+    url: "https://coding.abel.nu/wp-content/uploads/2012/04/test-v-model.png",
+    images: [
+      {
+        url: "https://anuradhaagarwal.wordpress.com/wp-content/uploads/2010/07/untitled.jpg",
+        title: "Test Scrum",
+      },
+      {
+        url: "https://media.licdn.com/dms/image/v2/C5112AQHIG5wPDoMkyA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520177654061?e=2147483647&v=beta&t=2_NAyQWFd_RQ4gEpuk3Iy-CgcKm9vW7QneBh59jJDD8",
+        title: "Test Scrum",
+      },
+    ],
     videos: [
       {
-        url: "https://www.youtube.com/embed/1T7l2D14mIc",
+        url: "https://youtu.be/I-VZpWvsmFA?si=xUCJmEM_scWDplw9",
         title: "How to Pass the Certified Scrum Master Exam",
       },
       {
-        url: "https://www.youtube.com/embed/Q5k7a9YEoUI",
+        url: "https://youtu.be/zm1Jn5jb53g?si=YPDCcoQ5_hDQ2JWX",
         title: "PSM vs CSM - Which Scrum Certification Should You Choose?",
       },
       {
-        url: "https://www.youtube.com/embed/tdGvXqz6dfU",
+        url: "https://youtu.be/yHV8tlVOiJA?si=_UmPSxTSCxKhrtaP",
         title: "Top 10 Tips to Pass the Scrum Exam",
       },
     ],
+    end: "Las pruebas en Scrum son parte integral del ciclo de desarrollo. Se aplican durante cada sprint para asegurar que los incrementos de producto cumplan con los criterios de calidad establecidos, permitiendo detectar errores a tiempo y mejorar el producto continuamente. Las pruebas en Scrum son una práctica recomendada para garantizar la calidad del producto y la satisfacción del cliente. La colaboración entre el equipo de desarrollo y el Product Owner es clave para definir los criterios de aceptación y asegurar que el producto cumpla con las expectativas del cliente. Las pruebas en Scrum son una parte esencial del proceso de desarrollo ágil, ya que permiten al equipo identificar y corregir errores de manera temprana, garantizando la calidad del producto final.",
   },
 ];

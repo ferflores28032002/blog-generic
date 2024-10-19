@@ -8,7 +8,7 @@ const Questions = () => {
         <ScrollArea className="pb-10">
           <div className="sticky top-16 -mt-10 h-[calc(100vh-3.5rem)] py-12 pr-4">
             <h4 className="mb-4 font-medium leading-none dark:text-gray-200">
-              Preguntas frecuentes
+              Frases inspiradoras
             </h4>
             <ul className="m-0 list-none">
               {questionsAndQuotes.map((item, index) => (
