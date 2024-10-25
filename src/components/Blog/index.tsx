@@ -70,27 +70,54 @@ export default function Blog() {
     setIsSidebarOpen(false);
   };
 
-  const SidebarContent = () => (
-    <ScrollArea className="h-full py-6 pl-8 pr-6 lg:py-8">
-      <div className="grid grid-flow-row auto-rows-max text-sm">
-      {blogTopics.map((topic) => (
-        <button
-          key={topic.id}
-          className={`flex w-full items-center rounded-md px-2 py-1 transition-colors duration-200 ease-in-out
-            hover:bg-gray-200 dark:hover:bg-gray-600
-            ${
-              selectedTopic === topic.id
-                ? "bg-gray-100 dark:bg-gray-700 font-medium"
-                : "hover:bg-opacity-70 dark:hover:bg-opacity-70"
-            }`}
-          onClick={() => handleSidebarItemClick(topic.id)}
-        >
-          <span className="flex-1 text-left">{topic.title}</span>
-        </button>
-      ))}
-    </div>
-    </ScrollArea>
-  );
+  const SidebarContent = () => {
+    let categoryCounter = 0;
+    let subcategoryCounter = 0;
+  
+    return (
+      <ScrollArea className="h-full py-6 pl-8 pr-6 lg:py-8">
+        <div className="grid grid-flow-row auto-rows-max text-sm">
+          {blogTopics.map((topic) => {
+            // Incrementar contadores según el tipo de categoría
+            if (topic.isSubcategories) {
+              subcategoryCounter += 1;
+            } else {
+              categoryCounter += 1;
+              subcategoryCounter = 0;
+            }
+  
+            // Definir el índice del tema con la estructura adecuada
+            const topicIndex = topic.isSubcategories
+              ? `${categoryCounter}.${subcategoryCounter}`
+              : `${categoryCounter}`;
+  
+            return (
+              <button
+                key={topic.id}
+                className={`flex w-full items-center rounded-md px-2 py-1 transition-colors duration-200 ease-in-out
+                  ${
+                    topic.isSubcategories
+                      ? "ml-1 text-yellow-500 bg-transparent hover:bg-transparent active:bg-transparent"
+                      : "hover:bg-gray-200 dark:hover:bg-gray-600"
+                  }
+                  ${
+                    selectedTopic === topic.id && !topic.isSubcategories
+                      ? "bg-gray-100 dark:bg-gray-700 font-medium"
+                      : "hover:bg-opacity-70 dark:hover:bg-opacity-70"
+                  }`}
+                onClick={() => handleSidebarItemClick(topic.id)}
+              >
+                <span className="flex-1 text-left">
+                  {topicIndex}. {topic.title}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </ScrollArea>
+    );
+  };
+  
 
   const renderContent = () => {
     if (searchTerm) {

@@ -115,7 +115,6 @@ export const blogTopics = [
     url: "https://www.camara.es/sites/default/files/foto_texto_scrum.jpg",
     end: "Scrum es un marco ágil que facilita la gestión de proyectos complejos a través de un enfoque iterativo e incremental. Se centra en la colaboración constante entre los miembros del equipo, quienes trabajan en ciclos cortos y definidos llamados sprints. A través de eventos como el Daily Scrum, revisiones de sprint y retrospectivas, el equipo puede adaptarse rápidamente a los cambios y optimizar su rendimiento. Los roles clave como el Product Owner, el Scrum Master y el Development Team garantizan que el trabajo esté bien organizado y alineado con los objetivos del producto. Al implementar Scrum, las organizaciones logran mejorar la transparencia, la eficiencia y la entrega de valor continuo al cliente, fomentando una cultura de mejora constante.",
   },
-
   {
     id: 2,
     title: "Identifica el problema o necesidad",
@@ -337,6 +336,108 @@ export const blogTopics = [
   },
   {
     id: 4,
+    title: "Investigación de procesos",
+    isSubcategories: true,
+    category:
+      "La investigación de procesos en Scrum se centra en mejorar y optimizar los procedimientos dentro de un equipo ágil para maximizar la entrega de valor. En un marco ágil como Scrum, los equipos trabajan en iteraciones cortas, conocidas como **sprints**, y cada sprint incluye fases clave como la planificación, el desarrollo, la revisión y la retrospectiva. La investigación de procesos en este contexto busca identificar áreas de mejora en cada una de estas fases para aumentar la eficiencia y calidad del producto. Se estudian aspectos como la comunicación interna, la colaboración entre los roles de Scrum (Scrum Master, Product Owner y el equipo de desarrollo), la gestión del backlog, y la claridad en la definición de tareas. A través de técnicas como el análisis de flujos de trabajo, entrevistas con el equipo, y la observación de sprints, los investigadores pueden detectar obstáculos, como retrasos o cuellos de botella, y proponer soluciones como ajustes en la duración de las reuniones, la priorización de tareas más efectivas, o cambios en la distribución de roles. La investigación también evalúa el impacto de las ceremonias de Scrum, como las retrospectivas, para asegurar que se usen de manera productiva y que fomenten la mejora continua del equipo. Además, se exploran metodologías complementarias como Kanban para integrar prácticas que optimicen aún más los procesos. La adaptabilidad es clave en la investigación de procesos en Scrum, ya que el enfoque debe ajustarse a las dinámicas únicas de cada equipo y proyecto. Esto permite que el proceso de desarrollo sea más ágil y transparente, facilitando la entrega de incrementos de producto que realmente agreguen valor al usuario final. La investigación constante es fundamental para la madurez del equipo, ya que fomenta la reflexión sobre el desempeño y promueve una cultura de aprendizaje, innovación y mejora continua.",
+    content: `
+       La investigación de procesos en Scrum es un área de estudio que busca comprender, analizar y mejorar los procedimientos mediante los cuales los equipos alcanzan sus objetivos dentro del marco ágil. Se enfoca en examinar la secuencia de actividades, la interrelación entre ellas y los recursos involucrados para optimizar la eficiencia, reducir obstáculos y mejorar la calidad de los resultados. En un contexto de desarrollo ágil, la investigación de procesos en Scrum se aplica para identificar cuellos de botella, eliminar redundancias y mejorar la coordinación entre los miembros del equipo. Además, permite una mejor adaptación a cambios internos y externos, asegurando que los procesos sean flexibles y puedan evolucionar con el tiempo para satisfacer las necesidades del cliente y del negocio.
+
+
+       Un enfoque común en la investigación de procesos en Scrum es el análisis del Sprint y la evaluación de los eventos clave, como la Planificación del Sprint, el Daily Scrum, la Revisión del Sprint y la Retrospectiva del Sprint. Estos eventos permiten representar y comprender mejor la estructura y la dinámica de las actividades dentro de un Sprint. Herramientas como diagramas de flujo, retrospectivas estructuradas y tableros kanban se utilizan para mapear y documentar cada paso. Estos modelos no solo ayudan a visualizar cómo fluye el trabajo a través del equipo, sino que también sirven para identificar oportunidades de mejora y medir el impacto de los cambios. La planificación y la revisión del Sprint son esenciales para garantizar que todas las partes interesadas tengan una comprensión clara de cómo se desarrollan las operaciones diarias y cómo el equipo se alinea con los objetivos del producto.
+
+
+
+       Otro aspecto importante de la investigación de procesos en Scrum es la medición y el análisis del rendimiento del equipo durante los Sprints. Esto implica el uso de indicadores clave de desempeño (KPIs) para evaluar la eficiencia, efectividad y calidad del proceso de desarrollo. Los KPIs en Scrum pueden incluir métricas como la velocidad del equipo (número de historias completadas por Sprint), la duración de los ciclos, la cantidad de impedimentos resueltos y la satisfacción del cliente. Al analizar estos indicadores, los equipos de Scrum pueden identificar áreas problemáticas y tomar decisiones informadas para optimizar sus procesos. La recolección de datos precisos y el análisis riguroso son fundamentales para realizar mejoras significativas en los procesos del equipo, garantizando que los cambios implementados generen valor real y aumenten la capacidad del equipo para entregar incrementos de valor.
+
+
+
+       La automatización de procesos también juega un papel crucial en la investigación de procesos en Scrum. Con la creciente adopción de tecnologías como la integración continua, la entrega continua (CI/CD) y la automatización de pruebas, los equipos de desarrollo pueden automatizar tareas repetitivas y propensas a errores. Esto no solo reduce el tiempo de entrega y mejora la precisión, sino que también libera a los desarrolladores para que se concentren en actividades de mayor valor, como la solución de problemas complejos y la innovación. La investigación de procesos en Scrum analiza cómo y dónde se puede aplicar la automatización para obtener los mejores resultados, asegurando una implementación eficiente que contribuya al rendimiento general del equipo y a la calidad del producto.
+
+
+
+
+`,
+    bibliography: [
+      {
+        text: "Schwaber, K., & Sutherland, J. (2020). The Scrum Guide.",
+        link: "https://es.wikipedia.org/wiki/Scrum",
+      },
+      {
+        text: "Rubin, K. S. (2012). Essential Scrum: A Practical Guide to the Most Popular Agile Process.",
+        link: "https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software",
+      },
+      {
+        text: "Sutherland, J. (2014). Scrum: The Art of Doing Twice the Work in Half the Time.",
+        link: "https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software",
+      },
+      {
+        text: "Cohn, M. (2009). Succeeding with Agile: Software Development Using Scrum.",
+        link: "https://es.wikipedia.org/wiki/Agile_Software_Development",
+      },
+      {
+        text: "Pichler, R. (2010). Agile Product Management with Scrum: Creating Products that Customers Love.",
+        link: "https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_productos",
+      },
+      {
+        text: "Larman, C., & Vodde, B. (2016). Large-Scale Scrum: More with LeSS.",
+        link: "https://es.wikipedia.org/wiki/Large-Scale_Scrum",
+      },
+      {
+        text: "Kniberg, H. (2015). Scrum and XP from the Trenches.",
+        link: "https://es.wikipedia.org/wiki/Programaci%C3%B3n_extrema",
+      },
+      {
+        text: "Derby, E., & Larsen, D. (2006). Agile Retrospectives: Making Good Teams Great.",
+        link: "https://es.wikipedia.org/wiki/Retrospectiva_(scrum)",
+      },
+      {
+        text: "Cohn, M. (2005). Agile Estimating and Planning.",
+        link: "https://es.wikipedia.org/wiki/Planificaci%C3%B3n_%C3%A1gil",
+      },
+      {
+        text: "Ries, E. (2011). The Lean Startup.",
+        link: "https://es.wikipedia.org/wiki/Lean_Startup",
+      },
+    ],
+    videos: [
+      {
+        url: "https://youtu.be/WJDRbK3dtLs?si=mUXsbX9K9WAe0Hwr",
+        title: "Scrum Framework Explained",
+      },
+      {
+        url: "https://youtu.be/BfzVTlSM__w?si=t_oHsgwF2qTN5nkk",
+        title: "Scrum Framework Overview",
+      },
+      {
+        url: "https://youtu.be/8BQ0QAG_s8Q?si=C0o8qiSHWcoVgdG-",
+        title: "Scrum in 5 Minutes",
+      },
+      {
+        url: "https://youtu.be/TK7X8o7Pqlk?si=fbNRY_Ftm6dgtHLS",
+        title: "Scrum in 5 Minutes",
+      },
+      {
+        url: "https://youtu.be/XwOc5zMqc10?si=ptLIqeK-LEuEuQg-",
+        title: "Scrum in 5 Minutes",
+      },
+    ],
+    images: [
+      {
+        url: "https://donetonic.com/wp-content/uploads/2022/10/Procesos-SCRUM.png",
+        title: "Scrum Roles",
+      },
+
+      {
+        url: "https://ausum.cloud/wp-content/uploads/2023/11/Scrum-Process_Articulo_Semana-32_2022_1-scaled-1.webp",
+        title: "Scrum Framework",
+      },
+    ],
+    url: "https://ausum.cloud/wp-content/uploads/2023/11/Scrum-Process_Articulo_Semana-32_2022_1-scaled-1.webp",
+    end: "Finalmente, la investigación de procesos en Scrum tiene un enfoque continuo y adaptativo, lo que significa que siempre está en evolución. A medida que cambian las necesidades del cliente, los requisitos del producto y las tecnologías utilizadas, los procesos deben ser revisados y mejorados constantemente. La mejora continua es un principio fundamental de Scrum, ya que se enfoca en la búsqueda constante de oportunidades para hacer que los procesos del equipo sean más eficientes y eficaces. Esto incluye la implementación de ciclos de retroalimentación durante las retrospectivas del Sprint, la realización de talleres de mejora y la participación activa del equipo en la identificación de mejoras. De esta manera, la investigación de procesos en Scrum ayuda a los equipos a mantener una ventaja competitiva, adaptarse rápidamente a los cambios del entorno y entregar productos de alta calidad de manera predecible y efectiva.",
+  },
+  {
+    id: 5,
     title: "Roles en Scrum",
     category:
       "Los roles en Scrum son fundamentales para asegurar una colaboración efectiva dentro del equipo y una clara asignación de responsabilidades. En Scrum, existen tres roles principales: el Product Owner, el Scrum Master y el equipo de desarrollo. Cada uno de estos roles tiene responsabilidades específicas que contribuyen al éxito del equipo y a la entrega continua de valor en cada Sprint. El Product Owner se centra en maximizar el valor del producto al gestionar y priorizar el Product Backlog. El Scrum Master actúa como un facilitador, asegurando que el equipo siga los principios y las prácticas de Scrum, eliminando los impedimentos que puedan surgir. Por último, el equipo de desarrollo es responsable de convertir los elementos del Product Backlog en incrementos funcionales durante cada Sprint. Todos los roles trabajan juntos de manera colaborativa, lo que permite que Scrum sea un marco altamente adaptable y efectivo para la gestión de proyectos.",
@@ -455,7 +556,7 @@ export const blogTopics = [
     end: "Los tres roles principales en Scrum son el Product Owner, el Scrum Master, y el Development Team. Cada uno tiene responsabilidades bien definidas para asegurar el éxito del proyecto. El Product Owner define las prioridades, el Scrum Master facilita el proceso, y el equipo de desarrollo entrega el trabajo. La colaboración entre estos roles es esencial para mantener la alineación y la eficiencia del equipo. Al trabajar juntos, los roles en Scrum pueden adaptarse rápidamente a los cambios y entregar valor continuo al cliente.",
   },
   {
-    id: 5,
+    id: 6,
     title: "¿Cómo crear un plan de trabajo Scrum?",
     category:
       "El plan de trabajo en Scrum se basa en la creación y gestión del Product Backlog, la planificación de Sprints, y la colaboración constante entre el Product Owner, el Scrum Master y el equipo de desarrollo. El plan de trabajo debe ser flexible, permitiendo que el equipo responda a los cambios en los requisitos a lo largo del ciclo de desarrollo. A través de la planificación del Sprint, el equipo selecciona los elementos más prioritarios del Product Backlog para trabajar durante el Sprint. Durante este proceso, el Product Owner prioriza las tareas en función del valor que aportan al cliente, mientras que el equipo de desarrollo estima la cantidad de trabajo que puede completar dentro del tiempo asignado para el Sprint. Una vez que se ha definido el trabajo a realizar, el equipo colabora de manera autoorganizada para completar las tareas y entregar un incremento funcional del producto al final de cada Sprint.",
@@ -552,7 +653,7 @@ export const blogTopics = [
     end: "En Scrum, el plan de trabajo se establece al comienzo de cada sprint, donde se define el objetivo del sprint y las tareas que se deben completar. Este plan se ajusta durante el proyecto en función de la retroalimentación y el progreso del equipo, permitiendo una mayor flexibilidad. La colaboración entre el Product Owner, el Scrum Master y el equipo de desarrollo es esencial para el éxito del plan de trabajo y la entrega de valor continuo al cliente. La transparencia y la adaptabilidad son los pilares del plan de trabajo en Scrum.",
   },
   {
-    id: 6,
+    id: 7,
     title: "Estimaciones ágiles",
     category:
       "Las estimaciones ágiles son una parte fundamental del proceso de planificación en Scrum. El objetivo de las estimaciones ágiles es ayudar al equipo a calcular el esfuerzo necesario para completar una tarea o una historia de usuario dentro de un Sprint. En lugar de estimar en términos de horas o días, el equipo suele utilizar puntos de historia o técnicas como el Planning Poker para llegar a un consenso sobre el esfuerzo requerido para completar el trabajo. Las estimaciones ágiles no solo ayudan a planificar el trabajo del Sprint, sino que también proporcionan información valiosa sobre la capacidad del equipo y su velocidad a lo largo del tiempo. A medida que el equipo avanza en el desarrollo del producto, las estimaciones ágiles permiten ajustar el ritmo de trabajo y garantizar que se entreguen incrementos funcionales de valor al cliente en cada Sprint.",
@@ -646,7 +747,7 @@ export const blogTopics = [
     end: "Las estimaciones ágiles en Scrum se basan en técnicas como puntos de historia o estimaciones relativas, donde el equipo evalúa el esfuerzo necesario para completar cada tarea en comparación con otras. Esto permite planificar de manera efectiva sin ser demasiado rígidos en cuanto al tiempo. Las estimaciones ágiles también ayudan al equipo a medir su velocidad y a ajustar su ritmo de trabajo para entregar valor continuo al cliente.",
   },
   {
-    id: 7,
+    id: 8,
     title: "Impedimentos en Scrum",
     category:
       "Los impedimentos en Scrum son problemas o bloqueos que afectan la capacidad del equipo para completar su trabajo de manera eficiente durante el Sprint. Estos obstáculos pueden surgir de diversas fuentes, como problemas técnicos, conflictos entre miembros del equipo, falta de recursos o interferencias externas. Identificar y eliminar impedimentos es una de las principales responsabilidades del Scrum Master, quien trabaja para garantizar que el equipo pueda centrarse en completar las tareas del Sprint sin distracciones o bloqueos innecesarios. La rápida resolución de impedimentos es crucial para mantener el flujo de trabajo del equipo y asegurar la entrega continua de valor en cada Sprint.",
@@ -738,7 +839,7 @@ export const blogTopics = [
     end: "Los impedimentos son problemas o bloqueos que impiden el progreso del equipo. Uno de los roles del Scrum Master es identificar y eliminar estos impedimentos rápidamente para mantener el flujo de trabajo continuo durante el sprint. La resolución efectiva de impedimentos es esencial para garantizar que el equipo pueda cumplir con sus objetivos y entregar valor de manera continua al cliente. La colaboración y la comunicación abierta son clave para superar los impedimentos y mantener la eficiencia del equipo. La identificación y resolución de impedimentos es una parte esencial del proceso de mejora continua en Scrum.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Métricas en Scrum",
     category:
       "Las métricas en Scrum son herramientas esenciales para medir el rendimiento del equipo y el progreso del proyecto. Estas métricas permiten a los equipos y a los stakeholders tener una visión clara de cómo está avanzando el desarrollo del producto y si se están cumpliendo los objetivos establecidos. Entre las métricas más utilizadas en Scrum se encuentran la velocidad del equipo, el gráfico Burndown y el gráfico Burnup. Estas herramientas ayudan a inspeccionar y adaptar el proceso de trabajo, facilitando la toma de decisiones y la mejora continua. Las métricas no solo son importantes para la planificación del Sprint, sino también para la evaluación retrospectiva del rendimiento del equipo y la identificación de áreas de mejora.",
@@ -854,7 +955,7 @@ export const blogTopics = [
     end: "Las métricas en Scrum, como la velocidad del equipo, los gráficos de burn-down y el trabajo completado, permiten monitorear el progreso del equipo y ajustar el ritmo de trabajo para cumplir con los objetivos del sprint. Estas métricas proporcionan información valiosa para la planificación y la mejora continua, ayudando al equipo a entregar valor de manera eficiente y efectiva. La transparencia y la colaboración son clave para el uso efectivo de las métricas en Scrum. Los gráficos Burnup y Burndown son herramientas visuales que permiten al equipo y a los stakeholders ver el progreso del proyecto y tomar decisiones informadas sobre cómo ajustar el enfoque para cumplir con los objetivos del sprint.",
   },
   {
-    id: 9,
+    id: 10,
     title: "Estrategia y táctica",
     category:
       "En Scrum, la estrategia y la táctica juegan un papel importante en cómo se planifica y ejecuta el desarrollo de productos. La estrategia se refiere a los objetivos a largo plazo del producto, que guían el trabajo del equipo y establecen la dirección general del proyecto. Esta estrategia se define en gran parte por el Product Owner, quien prioriza el Product Backlog basándose en la visión del producto y las necesidades del negocio. Por otro lado, la táctica se refiere a las decisiones y acciones que el equipo toma en el día a día para lograr los objetivos estratégicos. Estas decisiones tácticas incluyen la planificación de Sprints, la autoorganización del equipo, y la entrega continua de incrementos funcionales del producto. En conjunto, la estrategia y la táctica garantizan que el equipo de desarrollo pueda entregar valor de manera constante, mientras se mantiene alineado con los objetivos de negocio.",
@@ -945,7 +1046,7 @@ export const blogTopics = [
     end: "Scrum combina una visión estratégica a largo plazo con tácticas de corto plazo. La estrategia se refleja en la planificación del backlog del producto, mientras que las tácticas se manejan a través de los sprints y las iteraciones rápidas para adaptarse a los cambios. La combinación de estrategia y táctica en Scrum permite a los equipos ser ágiles y flexibles, entregando valor de manera continua y manteniéndose alineados con los objetivos del negocio.",
   },
   {
-    id: 10,
+    id: 11,
     title: "Test Scrum",
     category:
       "Un test de Scrum es una evaluación que mide el conocimiento y la comprensión de los principios, roles y eventos del marco de trabajo Scrum. Este tipo de test suele ser utilizado en certificaciones profesionales, como la de Certified Scrum Master (CSM) o Professional Scrum Master (PSM). Los exámenes de Scrum evalúan el entendimiento de los candidatos sobre conceptos clave como el Product Backlog, los Sprints, los roles de Product Owner, Scrum Master y equipo de desarrollo, y la importancia de la autoorganización y la entrega de valor continuo. Los test de Scrum también pueden incluir preguntas sobre la implementación de Scrum en proyectos del mundo real y cómo manejar escenarios comunes dentro del marco ágil. Este tipo de evaluaciones asegura que los profesionales que obtienen la certificación puedan aplicar Scrum de manera efectiva en sus equipos y organizaciones.",
