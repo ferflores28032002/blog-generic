@@ -533,6 +533,116 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
   },
   {
     id: 6,
+    title: "Creatividad en los procesos",
+    isSubcategories: true,
+    category:
+      "La creatividad en los procesos de Scrum es una herramienta esencial que permite a los equipos no solo cumplir con sus objetivos, sino también innovar y mejorar continuamente en cada iteración. Scrum es un marco ágil de trabajo que organiza el desarrollo en ciclos cortos llamados sprints, lo que brinda oportunidades frecuentes de evaluación y ajuste. Esta estructura permite a los equipos aprender rápidamente de sus errores y éxitos, aplicando esos conocimientos en sprints posteriores. La creatividad en Scrum no es solo la capacidad de generar ideas nuevas, sino también la habilidad de adaptar y mejorar procesos, resolver problemas y descubrir soluciones innovadoras que se ajusten a las necesidades del cliente y del mercado. Con roles bien definidos —como el Scrum Master, quien facilita el proceso, y el Product Owner, que establece las prioridades de desarrollo—, Scrum fomenta un ambiente de colaboración en el que cada miembro tiene la libertad de aportar desde su especialidad. Además, la transparencia y la comunicación constante, pilares fundamentales de Scrum, crean un entorno seguro donde los miembros del equipo se sienten libres para expresar sus ideas sin miedo al juicio. Esto, junto con la autonomía que se otorga a los equipos autoorganizados, potencia la creatividad, permitiendo probar enfoques distintos y ajustar sobre la marcha según los resultados obtenidos. Las retrospectivas al final de cada sprint ofrecen una excelente oportunidad para reflexionar colectivamente, analizar qué funcionó o no, y explorar nuevas maneras de mejorar tanto el producto como el proceso, promoviendo así una cultura de creatividad y mejora continua.",
+    content: `
+       La creatividad en los procesos de Scrum es fundamental para la innovación y mejora continua en los equipos de trabajo. Scrum, como marco ágil de desarrollo, tiene la flexibilidad y apertura necesarias para que los equipos busquen constantemente nuevas maneras de resolver problemas y abordar desafíos. La creatividad permite a los miembros del equipo proponer ideas frescas, mejorar la eficiencia, y adaptarse rápidamente a cambios en el proyecto. En un entorno Scrum, cada miembro tiene la posibilidad de aportar desde su perspectiva, lo que fomenta la diversidad de pensamiento y la generación de soluciones innovadoras.
+
+
+Una de las características principales de Scrum es la iteración en sprints cortos, lo que da lugar a ciclos de retroalimentación frecuente. Esta estructura es ideal para el fomento de la creatividad, ya que permite al equipo aprender de cada iteración y aplicar los aprendizajes en la siguiente. La creatividad se convierte en un recurso valioso para mejorar el producto y optimizar el proceso. Durante la revisión y retrospectiva al final de cada sprint, el equipo puede reflexionar y discutir nuevas ideas, lo que facilita la innovación y la creatividad de manera continua.
+
+
+Scrum también se caracteriza por la colaboración entre equipos multidisciplinarios, lo cual es un entorno perfecto para el florecimiento de la creatividad. Al incluir profesionales de diferentes disciplinas, como desarrollo, diseño, y marketing, se permite una visión amplia y variada del producto. Esta diversidad de habilidades y puntos de vista enriquece el proceso creativo, ya que cada miembro contribuye con ideas que, de otro modo, podrían no haberse considerado. Esta colaboración fomenta un ambiente de creatividad y aprendizaje, clave para alcanzar resultados innovadores.
+
+
+Otro aspecto relevante es el enfoque de Scrum en la transparencia y comunicación abierta. La creatividad prospera en un entorno donde todos los miembros se sienten seguros de compartir sus ideas sin miedo al juicio. Las ceremonias de Scrum, como el daily stand-up y la retrospectiva, proporcionan oportunidades para expresar ideas y preocupaciones, lo que contribuye a un ambiente de confianza. Cuando los equipos sienten que sus opiniones son valoradas, es más probable que propongan soluciones creativas a los problemas que surgen.
+
+
+La autonomía de los equipos en Scrum es otra característica que promueve la creatividad. Los equipos de Scrum son autoorganizados y tienen la libertad de decidir cómo abordar las tareas y alcanzar sus objetivos. Esta autonomía permite que los miembros del equipo prueben enfoques diferentes y, si es necesario, hagan ajustes sin necesidad de aprobación constante. La libertad para experimentar y aprender de los errores es crucial para que la creatividad pueda expresarse y llevar a soluciones innovadoras.
+
+
+Además, el rol del Scrum Master es esencial para apoyar la creatividad dentro del equipo. El Scrum Master es responsable de eliminar los obstáculos que puedan limitar la eficiencia y creatividad del equipo, asegurando que cada miembro pueda enfocarse en sus tareas sin distracciones. Esto permite a los desarrolladores y otros miembros dedicar más tiempo y energía a pensar de manera creativa y buscar soluciones innovadoras para los desafíos del proyecto.
+
+
+En cuanto al Product Owner, su papel también impulsa la creatividad, ya que se encarga de mantener una visión clara del producto y de priorizar las funcionalidades más relevantes. Esto ayuda al equipo a enfocarse en lo que realmente importa, dejando margen para que se experimenten diferentes enfoques en el desarrollo de cada funcionalidad. La claridad en la dirección del proyecto fomenta la creatividad, ya que el equipo sabe hacia dónde debe dirigir sus esfuerzos y puede concentrarse en mejorar la experiencia del usuario de manera original.
+
+
+La planificación flexible que ofrece Scrum es otro factor que permite la creatividad. Como el enfoque es iterativo, los cambios en el backlog del producto son bienvenidos, y se adaptan en cada sprint. Esto significa que las nuevas ideas y propuestas creativas pueden ser rápidamente evaluadas e implementadas si son beneficiosas para el proyecto. La capacidad de adaptación permite que las ideas creativas fluyan de manera continua, sin restricciones innecesarias.
+
+
+Las retrospectivas, en particular, son una excelente oportunidad para la creatividad. Durante estas reuniones, el equipo analiza lo que funcionó y lo que no en el sprint anterior, y explora nuevas maneras de mejorar el proceso. Este ejercicio de reflexión colectiva es un espacio seguro para proponer y discutir ideas creativas que podrían mejorar la eficiencia del equipo o la calidad del producto.
+
+
+`,
+    bibliography: [
+      {
+        text: "Beck, K., & Andres, C. (2004). Extreme Programming Explained: Embrace Change (2nd ed.). Addison-Wesley Professional.",
+        link: "https://doi.org/10.5555/940863",
+      },
+      {
+        text: "Sutherland, J., & Schwaber, K. (2013). The Scrum Guide. Scrum.org.",
+        link: "https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf",
+      },
+      {
+        text: "Moe, N. B., Dingsøyr, T., & Dybå, T. (2010). A teamwork model for understanding an agile team: A case study of a Scrum project.",
+        link: "https://doi.org/10.1016/j.infsof.2009.05.001",
+      },
+      {
+        text: "Gren, L., Torkar, R., & Feldt, R. (2017). Group development and group maturity when building agile teams: A qualitative and quantitative investigation at eight large companies.",
+        link: "https://doi.org/10.1016/j.jss.2016.05.034",
+      },
+      {
+        text: "Denning, S. (2016). How to Make the Whole Organization Agile. Harvard Business Review.",
+        link: "https://hbr.org/2016/12/how-to-make-the-whole-organization-agile",
+      },
+      {
+        text: "Reiter-Palmon, R., & Illies, J. J. (2004). Leadership and creativity: Understanding leadership from a creative problem-solving perspective.",
+        link: "https://doi.org/10.1016/j.leaqua.2004.06.005",
+      },
+      {
+        text: "Bass, J. M. (2014). Scrum master activities: Process tailoring in large enterprise projects.",
+        link: "https://doi.org/10.1145/2593728.2593741",
+      },
+      {
+        text: "Jalali, S., & Wohlin, C. (2012). Agile practices in global software engineering: A systematic map.",
+        link: "https://doi.org/10.1016/j.infsof.2011.06.006",
+      },
+      {
+        text: "Rigby, D. K., Sutherland, J., & Takeuchi, H. (2016). Embracing Agile.",
+        link: "https://hbr.org/2016/05/embracing-agile",
+      },
+      {
+        text: "Mahnic, V. (2012). A Capstone Course on Agile Software Development Using Scrum. IEEE Transactions on Education.",
+        link: "https://doi.org/10.1109/TE.2011.2172980",
+      },
+    ],
+
+    videos: [
+      {
+        url: "https://www.youtube.com/live/y1gGtp5dxfk?si=AKKSFUIYDaW3na_K",
+        title: "Scrum Framework Explained",
+      },
+      {
+        url: "https://youtu.be/KgrAJjF5JT4?si=ozEaLwgxUHYkzsgW",
+        title: "Scrum Framework Explained",
+      },
+      {
+        url: "https://youtu.be/arjVZdyzl1o?si=fzljHV5g948It_xL",
+        title: "Scrum Framework Overview",
+      },
+      {
+        url: "https://youtu.be/YxmE34Nk6D4?si=kuOpiTCrthfHic83",
+        title: "Scrum in 5 Minutes",
+      },
+    ],
+    images: [
+      {
+        url: "https://giosyst3m.net/hs-fs/hubfs/scrum-valores-giosyst3m.jpg?width=1920&height=1080&name=scrum-valores-giosyst3m.jpg",
+        title: "Scrum Roles",
+      },
+
+      {
+        url: "https://media.licdn.com/dms/image/v2/C5612AQHk5hB4CyH9xw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520079521307?e=2147483647&v=beta&t=wc9wyFpU1wlioOrygGgUWSDEuERq2q0GYYJjJsQzxjg",
+        title: "Scrum Framework",
+      },
+    ],
+    url: "https://giosyst3m.net/hubfs/proceso-creativo-giosyst3m.jpg",
+    end: "Finalmente, el plan de mejora de procesos en Scrum debe ser revisado y ajustado regularmente. Al igual que el producto, el proceso en sí necesita adaptarse a los cambios en el entorno del proyecto y en las necesidades del cliente. Un enfoque iterativo para la mejora del proceso permite que los equipos respondan rápidamente a estos cambios y mantengan un ciclo de trabajo eficiente y enfocado en entregar valor real al cliente.",
+  },
+  {
+    id: 7,
     title: "Roles en Scrum",
     category:
       "Los roles en Scrum son fundamentales para asegurar una colaboración efectiva dentro del equipo y una clara asignación de responsabilidades. En Scrum, existen tres roles principales: el Product Owner, el Scrum Master y el equipo de desarrollo. Cada uno de estos roles tiene responsabilidades específicas que contribuyen al éxito del equipo y a la entrega continua de valor en cada Sprint. El Product Owner se centra en maximizar el valor del producto al gestionar y priorizar el Product Backlog. El Scrum Master actúa como un facilitador, asegurando que el equipo siga los principios y las prácticas de Scrum, eliminando los impedimentos que puedan surgir. Por último, el equipo de desarrollo es responsable de convertir los elementos del Product Backlog en incrementos funcionales durante cada Sprint. Todos los roles trabajan juntos de manera colaborativa, lo que permite que Scrum sea un marco altamente adaptable y efectivo para la gestión de proyectos.",
@@ -651,7 +761,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "Los tres roles principales en Scrum son el Product Owner, el Scrum Master, y el Development Team. Cada uno tiene responsabilidades bien definidas para asegurar el éxito del proyecto. El Product Owner define las prioridades, el Scrum Master facilita el proceso, y el equipo de desarrollo entrega el trabajo. La colaboración entre estos roles es esencial para mantener la alineación y la eficiencia del equipo. Al trabajar juntos, los roles en Scrum pueden adaptarse rápidamente a los cambios y entregar valor continuo al cliente.",
   },
   {
-    id: 7,
+    id: 8,
     title: "¿Cómo crear un plan de trabajo Scrum?",
     category:
       "El plan de trabajo en Scrum se basa en la creación y gestión del Product Backlog, la planificación de Sprints, y la colaboración constante entre el Product Owner, el Scrum Master y el equipo de desarrollo. El plan de trabajo debe ser flexible, permitiendo que el equipo responda a los cambios en los requisitos a lo largo del ciclo de desarrollo. A través de la planificación del Sprint, el equipo selecciona los elementos más prioritarios del Product Backlog para trabajar durante el Sprint. Durante este proceso, el Product Owner prioriza las tareas en función del valor que aportan al cliente, mientras que el equipo de desarrollo estima la cantidad de trabajo que puede completar dentro del tiempo asignado para el Sprint. Una vez que se ha definido el trabajo a realizar, el equipo colabora de manera autoorganizada para completar las tareas y entregar un incremento funcional del producto al final de cada Sprint.",
@@ -748,7 +858,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "En Scrum, el plan de trabajo se establece al comienzo de cada sprint, donde se define el objetivo del sprint y las tareas que se deben completar. Este plan se ajusta durante el proyecto en función de la retroalimentación y el progreso del equipo, permitiendo una mayor flexibilidad. La colaboración entre el Product Owner, el Scrum Master y el equipo de desarrollo es esencial para el éxito del plan de trabajo y la entrega de valor continuo al cliente. La transparencia y la adaptabilidad son los pilares del plan de trabajo en Scrum.",
   },
   {
-    id: 8,
+    id: 9,
     title: "Estimaciones ágiles",
     category:
       "Las estimaciones ágiles son una parte fundamental del proceso de planificación en Scrum. El objetivo de las estimaciones ágiles es ayudar al equipo a calcular el esfuerzo necesario para completar una tarea o una historia de usuario dentro de un Sprint. En lugar de estimar en términos de horas o días, el equipo suele utilizar puntos de historia o técnicas como el Planning Poker para llegar a un consenso sobre el esfuerzo requerido para completar el trabajo. Las estimaciones ágiles no solo ayudan a planificar el trabajo del Sprint, sino que también proporcionan información valiosa sobre la capacidad del equipo y su velocidad a lo largo del tiempo. A medida que el equipo avanza en el desarrollo del producto, las estimaciones ágiles permiten ajustar el ritmo de trabajo y garantizar que se entreguen incrementos funcionales de valor al cliente en cada Sprint.",
@@ -842,7 +952,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "Las estimaciones ágiles en Scrum se basan en técnicas como puntos de historia o estimaciones relativas, donde el equipo evalúa el esfuerzo necesario para completar cada tarea en comparación con otras. Esto permite planificar de manera efectiva sin ser demasiado rígidos en cuanto al tiempo. Las estimaciones ágiles también ayudan al equipo a medir su velocidad y a ajustar su ritmo de trabajo para entregar valor continuo al cliente.",
   },
   {
-    id: 9,
+    id: 10,
     title: "Impedimentos en Scrum",
     category:
       "Los impedimentos en Scrum son problemas o bloqueos que afectan la capacidad del equipo para completar su trabajo de manera eficiente durante el Sprint. Estos obstáculos pueden surgir de diversas fuentes, como problemas técnicos, conflictos entre miembros del equipo, falta de recursos o interferencias externas. Identificar y eliminar impedimentos es una de las principales responsabilidades del Scrum Master, quien trabaja para garantizar que el equipo pueda centrarse en completar las tareas del Sprint sin distracciones o bloqueos innecesarios. La rápida resolución de impedimentos es crucial para mantener el flujo de trabajo del equipo y asegurar la entrega continua de valor en cada Sprint.",
@@ -934,7 +1044,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "Los impedimentos son problemas o bloqueos que impiden el progreso del equipo. Uno de los roles del Scrum Master es identificar y eliminar estos impedimentos rápidamente para mantener el flujo de trabajo continuo durante el sprint. La resolución efectiva de impedimentos es esencial para garantizar que el equipo pueda cumplir con sus objetivos y entregar valor de manera continua al cliente. La colaboración y la comunicación abierta son clave para superar los impedimentos y mantener la eficiencia del equipo. La identificación y resolución de impedimentos es una parte esencial del proceso de mejora continua en Scrum.",
   },
   {
-    id: 10,
+    id: 11,
     title: "Métricas en Scrum",
     category:
       "Las métricas en Scrum son herramientas esenciales para medir el rendimiento del equipo y el progreso del proyecto. Estas métricas permiten a los equipos y a los stakeholders tener una visión clara de cómo está avanzando el desarrollo del producto y si se están cumpliendo los objetivos establecidos. Entre las métricas más utilizadas en Scrum se encuentran la velocidad del equipo, el gráfico Burndown y el gráfico Burnup. Estas herramientas ayudan a inspeccionar y adaptar el proceso de trabajo, facilitando la toma de decisiones y la mejora continua. Las métricas no solo son importantes para la planificación del Sprint, sino también para la evaluación retrospectiva del rendimiento del equipo y la identificación de áreas de mejora.",
@@ -1050,7 +1160,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "Las métricas en Scrum, como la velocidad del equipo, los gráficos de burn-down y el trabajo completado, permiten monitorear el progreso del equipo y ajustar el ritmo de trabajo para cumplir con los objetivos del sprint. Estas métricas proporcionan información valiosa para la planificación y la mejora continua, ayudando al equipo a entregar valor de manera eficiente y efectiva. La transparencia y la colaboración son clave para el uso efectivo de las métricas en Scrum. Los gráficos Burnup y Burndown son herramientas visuales que permiten al equipo y a los stakeholders ver el progreso del proyecto y tomar decisiones informadas sobre cómo ajustar el enfoque para cumplir con los objetivos del sprint.",
   },
   {
-    id: 11,
+    id: 12,
     title: "Estrategia y táctica",
     category:
       "En Scrum, la estrategia y la táctica juegan un papel importante en cómo se planifica y ejecuta el desarrollo de productos. La estrategia se refiere a los objetivos a largo plazo del producto, que guían el trabajo del equipo y establecen la dirección general del proyecto. Esta estrategia se define en gran parte por el Product Owner, quien prioriza el Product Backlog basándose en la visión del producto y las necesidades del negocio. Por otro lado, la táctica se refiere a las decisiones y acciones que el equipo toma en el día a día para lograr los objetivos estratégicos. Estas decisiones tácticas incluyen la planificación de Sprints, la autoorganización del equipo, y la entrega continua de incrementos funcionales del producto. En conjunto, la estrategia y la táctica garantizan que el equipo de desarrollo pueda entregar valor de manera constante, mientras se mantiene alineado con los objetivos de negocio.",
@@ -1141,7 +1251,7 @@ La documentación de los aprendizajes es otra parte importante del plan de mejor
     end: "Scrum combina una visión estratégica a largo plazo con tácticas de corto plazo. La estrategia se refleja en la planificación del backlog del producto, mientras que las tácticas se manejan a través de los sprints y las iteraciones rápidas para adaptarse a los cambios. La combinación de estrategia y táctica en Scrum permite a los equipos ser ágiles y flexibles, entregando valor de manera continua y manteniéndose alineados con los objetivos del negocio.",
   },
   {
-    id: 12,
+    id: 13,
     title: "Test Scrum",
     category:
       "Un test de Scrum es una evaluación que mide el conocimiento y la comprensión de los principios, roles y eventos del marco de trabajo Scrum. Este tipo de test suele ser utilizado en certificaciones profesionales, como la de Certified Scrum Master (CSM) o Professional Scrum Master (PSM). Los exámenes de Scrum evalúan el entendimiento de los candidatos sobre conceptos clave como el Product Backlog, los Sprints, los roles de Product Owner, Scrum Master y equipo de desarrollo, y la importancia de la autoorganización y la entrega de valor continuo. Los test de Scrum también pueden incluir preguntas sobre la implementación de Scrum en proyectos del mundo real y cómo manejar escenarios comunes dentro del marco ágil. Este tipo de evaluaciones asegura que los profesionales que obtienen la certificación puedan aplicar Scrum de manera efectiva en sus equipos y organizaciones.",
