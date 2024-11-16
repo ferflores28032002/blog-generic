@@ -643,6 +643,102 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
   },
   {
     id: 7,
+    title: "Sistematización de Procesos",
+    isSubcategories: true,
+    category:
+      "La sistematización de procesos es un enfoque estratégico que permite organizar, estructurar y optimizar las actividades dentro de una organización para alcanzar objetivos de manera eficiente y efectiva. Este proceso implica analizar y documentar cada etapa del flujo de trabajo para identificar redundancias, mejorar la comunicación entre equipos y garantizar que los recursos sean utilizados de forma óptima. En el marco de metodologías ágiles como Scrum, la sistematización juega un papel crucial, ya que permite definir roles, establecer prioridades y gestionar entregables en ciclos cortos y enfocados, conocidos como sprints. Esto asegura que cada iteración proporcione valor tangible al cliente mientras se mantiene la flexibilidad para adaptarse a cambios. La implementación de herramientas tecnológicas como tableros Kanban, plataformas de seguimiento de tareas y sistemas de automatización de pruebas facilita la visualización y el control de cada paso del proceso. Asimismo, la sistematización fomenta la transparencia al documentar las decisiones y resultados, permitiendo una retroalimentación constante y una mejora continua. Los roles clave, como el Product Owner y el Scrum Master, se ven fortalecidos al tener procesos bien definidos que guían sus responsabilidades. Además, mediante la integración de métricas clave, como la velocidad del equipo y el cumplimiento de plazos, las organizaciones pueden medir su desempeño y realizar ajustes estratégicos en tiempo real. La sistematización también incluye la implementación de pipelines de CI/CD (Integración y Despliegue Continuos), que automatizan la entrega de software y garantizan incrementos de alta calidad. Este enfoque no solo mejora la eficiencia operativa, sino que también eleva la satisfacción del cliente al entregar productos de mayor valor en menos tiempo. En resumen, la sistematización de procesos es esencial para cualquier organización que busque optimizar sus operaciones, reducir errores y mantenerse competitiva en un entorno dinámico y exigente.",
+    content: `
+      La sistematización de procesos en Scrum se enfoca en organizar y optimizar las actividades necesarias para entregar productos de valor de manera eficiente. Esto implica estructurar el flujo de trabajo dentro del marco Scrum, asegurando que cada evento, rol y artefacto cumpla con su propósito y contribuya al éxito del proyecto.
+
+      El Sprint Planning es clave para organizar el trabajo en iteraciones cortas y enfocadas. La sistematización aquí implica definir procesos claros para seleccionar las historias de usuario y estimar el esfuerzo necesario, utilizando métricas como puntos de historia o técnicas como Planning Poker.
+
+      Los tableros Kanban son una herramienta visual común en Scrum para rastrear el progreso de las tareas. La sistematización de estos tableros implica automatizar el cambio de estados, integración con notificaciones y el uso de etiquetas para priorizar las tareas más importantes.
+
+      El Daily Scrum se beneficia enormemente de la sistematización. Al utilizar herramientas de comunicación digital o dashboards centralizados, los equipos pueden compartir actualizaciones de estado, identificar bloqueos y planificar el día de manera más eficiente
+
+      La sistematización de los procesos en Scrum incluye la implementación de herramientas para pruebas automáticas y control de calidad. Esto asegura que cada incremento del producto cumpla con los estándares establecidos antes de su entrega.
+
+      La sistematización también abarca la Retrospective, un evento esencial para analizar el desempeño del equipo y mejorar continuamente. Las encuestas digitales, análisis de datos y tableros de indicadores son herramientas que facilitan esta tarea.
+
+      Scrum prioriza la entrega continua de valor mediante incrementos. La sistematización aquí incluye la integración de pipelines de CI/CD (Integración y Despliegue Continuos), que automatizan las etapas desde el desarrollo hasta la implementación.
+
+      En Scrum, la sistematización ayuda a definir y reforzar los roles del Product Owner, Scrum Master y el equipo de desarrollo. Mediante herramientas de asignación de tareas y reportes de desempeño, cada miembro del equipo puede enfocarse en sus responsabilidades específicas.
+
+      La sistematización permite el monitoreo constante de métricas como la velocidad del equipo, la tasa de finalización de tareas y la satisfacción del cliente. Estas métricas, accesibles en tiempo real mediante paneles de control, son esenciales para evaluar el éxito del proceso Scrum.
+`,
+    bibliography: [
+      {
+        text: "Beck, K., & Andres, C. (2004). Extreme Programming Explained: Embrace Change (2nd ed.). Addison-Wesley Professional.",
+        link: "https://doi.org/10.5555/940863",
+      },
+      {
+        text: "Sutherland, J., & Schwaber, K. (2013). The Scrum Guide. Scrum.org.",
+        link: "https://scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-US.pdf",
+      },
+      {
+        text: "Moe, N. B., Dingsøyr, T., & Dybå, T. (2010). A teamwork model for understanding an agile team: A case study of a Scrum project.",
+        link: "https://doi.org/10.1016/j.infsof.2009.05.001",
+      },
+      {
+        text: "Gren, L., Torkar, R., & Feldt, R. (2017). Group development and group maturity when building agile teams: A qualitative and quantitative investigation at eight large companies.",
+        link: "https://doi.org/10.1016/j.jss.2016.05.034",
+      },
+      {
+        text: "Denning, S. (2016). How to Make the Whole Organization Agile. Harvard Business Review.",
+        link: "https://hbr.org/2016/12/how-to-make-the-whole-organization-agile",
+      },
+      {
+        text: "Reiter-Palmon, R., & Illies, J. J. (2004). Leadership and creativity: Understanding leadership from a creative problem-solving perspective.",
+        link: "https://doi.org/10.1016/j.leaqua.2004.06.005",
+      },
+      {
+        text: "Bass, J. M. (2014). Scrum master activities: Process tailoring in large enterprise projects.",
+        link: "https://doi.org/10.1145/2593728.2593741",
+      },
+      {
+        text: "Jalali, S., & Wohlin, C. (2012). Agile practices in global software engineering: A systematic map.",
+        link: "https://doi.org/10.1016/j.infsof.2011.06.006",
+      },
+      {
+        text: "Rigby, D. K., Sutherland, J., & Takeuchi, H. (2016). Embracing Agile.",
+        link: "https://hbr.org/2016/05/embracing-agile",
+      },
+      {
+        text: "Mahnic, V. (2012). A Capstone Course on Agile Software Development Using Scrum. IEEE Transactions on Education.",
+        link: "https://doi.org/10.1109/TE.2011.2172980",
+      },
+    ],
+
+    videos: [
+      {
+        url: "https://youtu.be/ksdueUeRFxE?si=tQwa0u9sjNHCkz-s",
+        title: "Scrum Framework Overview",
+      },
+      {
+        url: "https://youtu.be/CP3eSBkYlCM?si=1GrDNx2gLH1HcN1q",
+        title: "Scrum Framework Explained",
+      },
+      {
+        url: "https://youtu.be/Smf2BKwiBmM?si=NlbtpQbaGtW5dkla",
+        title: "Scrum Framework Explained",
+      },
+    ],
+    images: [
+      {
+        url: "https://donetonic.com/wp-content/uploads/2022/10/Procesos-SCRUM.png",
+        title: "Scrum Roles",
+      },
+
+      {
+        url: "https://blog.innevo.com/hs-fs/hubfs/Blog%20Centro%20de%20Mejora/Im%C3%A1genes%20de%20Apoyo/BLOG%20-%2060%20-%20Gestion%20Agil%20de%20Proyectos_Diagrama.jpg?width=785&height=536&name=BLOG%20-%2060%20-%20Gestion%20Agil%20de%20Proyectos_Diagrama.jpg",
+        title: "Scrum Framework",
+      },
+    ],
+    url: "https://www.researchgate.net/publication/326571456/figure/fig15/AS:651789682626576@1532410178747/Figura-24-Flujo-del-proceso-Scrum-Fuente.png",
+    end: "En conclusión, la sistematización de procesos se presenta como un elemento clave para optimizar la eficiencia operativa, mejorar la calidad de los entregables y garantizar la adaptabilidad en un entorno competitivo. Al estructurar y organizar las actividades mediante herramientas tecnológicas y metodologías claras, como Scrum en el ámbito ágil, las organizaciones pueden reducir errores, eliminar redundancias y maximizar el uso de recursos. Este enfoque no solo promueve una mejor colaboración y comunicación entre los equipos, sino que también asegura que cada etapa del proceso esté alineada con los objetivos estratégicos de la empresa. La implementación de automatizaciones, como pipelines de CI/CD, y el uso de métricas para el monitoreo continuo permiten mantener un control riguroso sobre el progreso y la calidad, generando productos finales de alto valor que responden a las necesidades cambiantes de los clientes. Además, al fomentar la transparencia y la mejora continua a través de la retroalimentación y la documentación, la sistematización impulsa una cultura organizacional orientada a la excelencia. En un mundo donde la agilidad y la innovación son fundamentales, la sistematización no solo se convierte en una herramienta para alcanzar objetivos, sino también en un diferenciador estratégico que permite a las empresas mantenerse relevantes y competitivas en el mercado. Por tanto, invertir en la sistematización de procesos es una decisión indispensable para garantizar el éxito y la sostenibilidad a largo plazo.",
+  },
+  {
+    id: 8,
     title: "Roles en Scrum",
     category:
       "Los roles en Scrum son fundamentales para asegurar una colaboración efectiva dentro del equipo y una clara asignación de responsabilidades. En Scrum, existen tres roles principales: el Product Owner, el Scrum Master y el equipo de desarrollo. Cada uno de estos roles tiene responsabilidades específicas que contribuyen al éxito del equipo y a la entrega continua de valor en cada Sprint. El Product Owner se centra en maximizar el valor del producto al gestionar y priorizar el Product Backlog. El Scrum Master actúa como un facilitador, asegurando que el equipo siga los principios y las prácticas de Scrum, eliminando los impedimentos que puedan surgir. Por último, el equipo de desarrollo es responsable de convertir los elementos del Product Backlog en incrementos funcionales durante cada Sprint. Todos los roles trabajan juntos de manera colaborativa, lo que permite que Scrum sea un marco altamente adaptable y efectivo para la gestión de proyectos.",
@@ -761,7 +857,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "Los tres roles principales en Scrum son el Product Owner, el Scrum Master, y el Development Team. Cada uno tiene responsabilidades bien definidas para asegurar el éxito del proyecto. El Product Owner define las prioridades, el Scrum Master facilita el proceso, y el equipo de desarrollo entrega el trabajo. La colaboración entre estos roles es esencial para mantener la alineación y la eficiencia del equipo. Al trabajar juntos, los roles en Scrum pueden adaptarse rápidamente a los cambios y entregar valor continuo al cliente.",
   },
   {
-    id: 8,
+    id: 9,
     title: "¿Cómo crear un plan de trabajo Scrum?",
     category:
       "El plan de trabajo en Scrum se basa en la creación y gestión del Product Backlog, la planificación de Sprints, y la colaboración constante entre el Product Owner, el Scrum Master y el equipo de desarrollo. El plan de trabajo debe ser flexible, permitiendo que el equipo responda a los cambios en los requisitos a lo largo del ciclo de desarrollo. A través de la planificación del Sprint, el equipo selecciona los elementos más prioritarios del Product Backlog para trabajar durante el Sprint. Durante este proceso, el Product Owner prioriza las tareas en función del valor que aportan al cliente, mientras que el equipo de desarrollo estima la cantidad de trabajo que puede completar dentro del tiempo asignado para el Sprint. Una vez que se ha definido el trabajo a realizar, el equipo colabora de manera autoorganizada para completar las tareas y entregar un incremento funcional del producto al final de cada Sprint.",
@@ -858,7 +954,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "En Scrum, el plan de trabajo se establece al comienzo de cada sprint, donde se define el objetivo del sprint y las tareas que se deben completar. Este plan se ajusta durante el proyecto en función de la retroalimentación y el progreso del equipo, permitiendo una mayor flexibilidad. La colaboración entre el Product Owner, el Scrum Master y el equipo de desarrollo es esencial para el éxito del plan de trabajo y la entrega de valor continuo al cliente. La transparencia y la adaptabilidad son los pilares del plan de trabajo en Scrum.",
   },
   {
-    id: 9,
+    id: 10,
     title: "Estimaciones ágiles",
     category:
       "Las estimaciones ágiles son una parte fundamental del proceso de planificación en Scrum. El objetivo de las estimaciones ágiles es ayudar al equipo a calcular el esfuerzo necesario para completar una tarea o una historia de usuario dentro de un Sprint. En lugar de estimar en términos de horas o días, el equipo suele utilizar puntos de historia o técnicas como el Planning Poker para llegar a un consenso sobre el esfuerzo requerido para completar el trabajo. Las estimaciones ágiles no solo ayudan a planificar el trabajo del Sprint, sino que también proporcionan información valiosa sobre la capacidad del equipo y su velocidad a lo largo del tiempo. A medida que el equipo avanza en el desarrollo del producto, las estimaciones ágiles permiten ajustar el ritmo de trabajo y garantizar que se entreguen incrementos funcionales de valor al cliente en cada Sprint.",
@@ -952,7 +1048,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "Las estimaciones ágiles en Scrum se basan en técnicas como puntos de historia o estimaciones relativas, donde el equipo evalúa el esfuerzo necesario para completar cada tarea en comparación con otras. Esto permite planificar de manera efectiva sin ser demasiado rígidos en cuanto al tiempo. Las estimaciones ágiles también ayudan al equipo a medir su velocidad y a ajustar su ritmo de trabajo para entregar valor continuo al cliente.",
   },
   {
-    id: 10,
+    id: 11,
     title: "Impedimentos en Scrum",
     category:
       "Los impedimentos en Scrum son problemas o bloqueos que afectan la capacidad del equipo para completar su trabajo de manera eficiente durante el Sprint. Estos obstáculos pueden surgir de diversas fuentes, como problemas técnicos, conflictos entre miembros del equipo, falta de recursos o interferencias externas. Identificar y eliminar impedimentos es una de las principales responsabilidades del Scrum Master, quien trabaja para garantizar que el equipo pueda centrarse en completar las tareas del Sprint sin distracciones o bloqueos innecesarios. La rápida resolución de impedimentos es crucial para mantener el flujo de trabajo del equipo y asegurar la entrega continua de valor en cada Sprint.",
@@ -1044,7 +1140,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "Los impedimentos son problemas o bloqueos que impiden el progreso del equipo. Uno de los roles del Scrum Master es identificar y eliminar estos impedimentos rápidamente para mantener el flujo de trabajo continuo durante el sprint. La resolución efectiva de impedimentos es esencial para garantizar que el equipo pueda cumplir con sus objetivos y entregar valor de manera continua al cliente. La colaboración y la comunicación abierta son clave para superar los impedimentos y mantener la eficiencia del equipo. La identificación y resolución de impedimentos es una parte esencial del proceso de mejora continua en Scrum.",
   },
   {
-    id: 11,
+    id: 12,
     title: "Métricas en Scrum",
     category:
       "Las métricas en Scrum son herramientas esenciales para medir el rendimiento del equipo y el progreso del proyecto. Estas métricas permiten a los equipos y a los stakeholders tener una visión clara de cómo está avanzando el desarrollo del producto y si se están cumpliendo los objetivos establecidos. Entre las métricas más utilizadas en Scrum se encuentran la velocidad del equipo, el gráfico Burndown y el gráfico Burnup. Estas herramientas ayudan a inspeccionar y adaptar el proceso de trabajo, facilitando la toma de decisiones y la mejora continua. Las métricas no solo son importantes para la planificación del Sprint, sino también para la evaluación retrospectiva del rendimiento del equipo y la identificación de áreas de mejora.",
@@ -1160,7 +1256,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "Las métricas en Scrum, como la velocidad del equipo, los gráficos de burn-down y el trabajo completado, permiten monitorear el progreso del equipo y ajustar el ritmo de trabajo para cumplir con los objetivos del sprint. Estas métricas proporcionan información valiosa para la planificación y la mejora continua, ayudando al equipo a entregar valor de manera eficiente y efectiva. La transparencia y la colaboración son clave para el uso efectivo de las métricas en Scrum. Los gráficos Burnup y Burndown son herramientas visuales que permiten al equipo y a los stakeholders ver el progreso del proyecto y tomar decisiones informadas sobre cómo ajustar el enfoque para cumplir con los objetivos del sprint.",
   },
   {
-    id: 12,
+    id: 13,
     title: "Estrategia y táctica",
     category:
       "En Scrum, la estrategia y la táctica juegan un papel importante en cómo se planifica y ejecuta el desarrollo de productos. La estrategia se refiere a los objetivos a largo plazo del producto, que guían el trabajo del equipo y establecen la dirección general del proyecto. Esta estrategia se define en gran parte por el Product Owner, quien prioriza el Product Backlog basándose en la visión del producto y las necesidades del negocio. Por otro lado, la táctica se refiere a las decisiones y acciones que el equipo toma en el día a día para lograr los objetivos estratégicos. Estas decisiones tácticas incluyen la planificación de Sprints, la autoorganización del equipo, y la entrega continua de incrementos funcionales del producto. En conjunto, la estrategia y la táctica garantizan que el equipo de desarrollo pueda entregar valor de manera constante, mientras se mantiene alineado con los objetivos de negocio.",
@@ -1251,7 +1347,7 @@ Las retrospectivas, en particular, son una excelente oportunidad para la creativ
     end: "Scrum combina una visión estratégica a largo plazo con tácticas de corto plazo. La estrategia se refleja en la planificación del backlog del producto, mientras que las tácticas se manejan a través de los sprints y las iteraciones rápidas para adaptarse a los cambios. La combinación de estrategia y táctica en Scrum permite a los equipos ser ágiles y flexibles, entregando valor de manera continua y manteniéndose alineados con los objetivos del negocio.",
   },
   {
-    id: 13,
+    id: 14,
     title: "Test Scrum",
     category:
       "Un test de Scrum es una evaluación que mide el conocimiento y la comprensión de los principios, roles y eventos del marco de trabajo Scrum. Este tipo de test suele ser utilizado en certificaciones profesionales, como la de Certified Scrum Master (CSM) o Professional Scrum Master (PSM). Los exámenes de Scrum evalúan el entendimiento de los candidatos sobre conceptos clave como el Product Backlog, los Sprints, los roles de Product Owner, Scrum Master y equipo de desarrollo, y la importancia de la autoorganización y la entrega de valor continuo. Los test de Scrum también pueden incluir preguntas sobre la implementación de Scrum en proyectos del mundo real y cómo manejar escenarios comunes dentro del marco ágil. Este tipo de evaluaciones asegura que los profesionales que obtienen la certificación puedan aplicar Scrum de manera efectiva en sus equipos y organizaciones.",
